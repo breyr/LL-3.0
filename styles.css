@@ -18,10 +18,9 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  height: 90vh;
+  height: auto;
   max-width: 500px;
   margin: 0 auto;
-  background-color: pink;
 }
 
 .button-input-wrapper {
@@ -89,6 +88,7 @@ input:focus, textarea:focus, select:focus{
   text-align: center;
   color: rgba(255,255,255, 0.3);
   font-size: 0.75rem;
+  margin-top: 2.25rem;
 }
 
 .footer > h4 {
