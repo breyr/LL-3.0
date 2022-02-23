@@ -3,8 +3,7 @@
 }
 
 body{
-  /* background-color: #51A4FB; */
-  background-color: pink;
+  background-color: #51A4FB;
   padding: 0;
   margin: 0;
   display: flex; 
@@ -28,7 +27,6 @@ body{
   overflow: none;
   height: 100vh;  
   max-height: -webkit-fill-available;
-  background-color: purple;
 }
 
 .button-input-wrapper {
