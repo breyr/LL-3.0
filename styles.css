@@ -3,7 +3,8 @@
 }
 
 body{
-  background-color: #51A4FB;
+  /* background-color: #51A4FB; */
+  background-color: pink;
   padding: 0;
   margin: 0;
   display: flex; 
