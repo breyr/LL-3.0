@@ -2,10 +2,6 @@
   font-family: "Monsteratt", sans-serif;
 }
 
-html {
-  height: 100vh;
-}
-
 body{
   background-color: #51A4FB;
   padding: 0;
@@ -23,7 +19,7 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  max-height: 100vh;
+  height: 100vh;
   max-width: 500px;
   margin: 0 auto;
   overflow: none;
@@ -96,7 +92,7 @@ input:focus, textarea:focus, select:focus{
   text-align: center;
   color: rgba(255,255,255, 0.3);
   font-size: 0.75rem;
-  margin-top: 2rem;
+  margin-top: auto;
 }
 
 .footer > h4 {
