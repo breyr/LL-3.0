@@ -10,6 +10,7 @@ body{
   background-color: #51A4FB;
   padding: 0;
   margin: 0;
+  overflow: none;
 }
 
 .logo {
@@ -35,6 +36,7 @@ body{
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: pink;
 }
 
 .errorText {
@@ -92,7 +94,6 @@ input:focus, textarea:focus, select:focus{
   text-align: center;
   color: rgba(255,255,255, 0.3);
   font-size: 0.75rem;
-  margin-top: auto;
   margin-top: 2rem;
 }
 
