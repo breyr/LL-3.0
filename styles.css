@@ -12,7 +12,7 @@ body{
 }
 
 .logo {
-  width: 35%;
+  width: 40%;
   height: auto;
 }
 
@@ -30,13 +30,13 @@ body{
 }
 
 .button-input-wrapper {
-  flex: 1;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: red;
 }
 
 .errorText {
@@ -83,7 +83,7 @@ input:focus, textarea:focus, select:focus{
   margin: 0.35rem 0;
   padding: 1rem;
   border-radius: 5px;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .btn:hover {
