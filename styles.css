@@ -26,7 +26,7 @@ body{
   max-height: 100vh;
   max-width: 500px;
   margin: 0 auto;
-  background-color: blueviolet;
+  overflow: none;
 }
 
 .button-input-wrapper {
@@ -37,7 +37,6 @@ body{
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: pink;
 }
 
 .errorText {
@@ -84,6 +83,7 @@ input:focus, textarea:focus, select:focus{
   margin: 0.35rem 0;
   padding: 1rem;
   border-radius: 5px;
+  font-size: 1.25rem;
 }
 
 .btn:hover {
