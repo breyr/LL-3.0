@@ -2,6 +2,10 @@
   font-family: "Monsteratt", sans-serif;
 }
 
+html {
+  height: 100vh;
+}
+
 body{
   background-color: #51A4FB;
   padding: 0;
@@ -18,12 +22,12 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  height: 100vh;
+  max-height: 100vh;
   max-width: 500px;
   margin: 0 auto;
 }
 
-.wrapper {
+.button-input-wrapper {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -31,7 +35,6 @@ body{
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* background-color: pink; */
 }
 
 .errorText {
@@ -89,7 +92,8 @@ input:focus, textarea:focus, select:focus{
   text-align: center;
   color: rgba(255,255,255, 0.3);
   font-size: 0.75rem;
-  margin-top: 2.25rem;
+  margin-top: auto;
+  margin-top: 2rem;
 }
 
 .footer > h4 {
